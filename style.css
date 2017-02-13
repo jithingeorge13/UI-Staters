@@ -1,0 +1,254 @@
+body{
+	background-image: url("image/so.jpg");
+	/*background-repeat: no-repeat;*/
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+               /*                          NAVBAR                       */ 
+.navbar-brand{
+	font-size: 50px;
+}
+
+/*-----------------------------------------------------------*/
+
+.container-fluid{
+	background-image: url("image/nav.jpg") !important;
+	font-family: Comic Sans, Comic Sans MS, cursive;  
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+               /*                          QUOTES                       */
+
+.quotes{
+	font-family: Comic Sans, Comic Sans MS, cursive; 
+}
+/*-----------------------------------------------------------*/
+
+.leo{
+	background-color: lightgrey;
+	background-image: url("leo.png");
+	background-repeat: no-repeat;
+    width: 250px;
+  /*  border: 25px solid green;*/
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+/*-----------------------------------------------------------*/
+.ron{
+	background-color: lightgrey;
+	background-image: url("ron.png");
+	background-repeat: no-repeat;
+    width: 250px;
+   /* border: 25px solid green;*/
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+/*-----------------------------------------------------------*/
+.wayne{
+	background-color: lightgrey;
+	background-image: url("wayne.png");
+	background-repeat: no-repeat;
+    width: 250px;
+   /* border: 25px solid green;*/
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+/*-----------------------------------------------------------*/
+.dinho{
+	background-color: lightgrey;
+	background-image: url("dinho.png");
+	background-repeat: no-repeat;
+    width: 250px;
+    /*border: 25px solid green;*/
+    padding: 25px;
+    margin: 25px;
+    float: left;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+               /*                          TAB BUTTON  (LEAGUE)                     */
+
+
+.leagues{
+font-family: Comic Sans, Comic Sans MS, cursive;
+text-shadow: 3px 4px 1px #555;
+    align-items: flex-start;
+    padding: 50px;
+    margin: px
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+               /*                          TAB PANEL                        */
+
+.all{
+	background-image: url("image/corner.jpg");
+	background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
+	margin:100px auto; 
+	padding: 50px;
+	/*border-style: groove; padding: 10px;*/
+	border-radius: 10%;
+}/*end of all*/
+
+/*-----------------------------------------------------------*/
+
+.row {
+    margin-right: -745px !important;
+    margin-left: 9px !important;
+    padding: 44px !important;
+}
+/*-----------------------------------------------------------*/
+img {
+    vertical-align: middle;
+    margin: 22px !important;
+}
+/*-----------------------------------------------------------*/
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+        margin-top: 80px;
+    margin-right: 130px;
+}
+
+
+
+
+/*.tilt img {
+  -webkit-filter: brightness(-5%);
+  -webkit-transition: all 0s ease;
+     -moz-transition: all 0s ease;
+       -o-transition: all 0s ease;
+      -ms-transition: all 0s ease;
+          transition: all 0s ease;
+}
+ 
+.tilt img:hover {
+  -webkit-filter: brightness(130%);
+}*/
+
+
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+} 
+/*end of tilt*/
+
+/*-----------------------------------------------------------*/
+
+.span{
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 150%;
+	margin-left: 0%;
+	color: #000000;
+    text-shadow: 0px 2px 3px #555;
+    text-align: center;
+}/*end of span*/
+
+/*-----------------------------------------------------------*/
+
+.contents {
+    margin-top: 5%;
+    margin-left: -3%;
+    padding: auto;
+}/*end of contents*/
+
+/*-----------------------------------------------------------*/   
+
+
+/*.tab-content{margin:30px;
+font-family: Comic Sans, Comic Sans MS, cursive;
+}
+/*end of tab-content*/
+
+
+/*-----------------------------------------------------------*/
+
+p.border {
+	border-style: outset; background-color: #F5F5F5; padding: 5px;
+    border-radius: 15px ; margin-top: 50px; margin-right: 190px;
+}/*end of p.border*/
+
+/*-----------------------------------------------------------*/
+.tilt{
+	text-align: center;
+}
+
+/*-----------------------------------------------------------*/
+.video1 {
+	float: left;
+}
+.video2 {
+	float: right;
+}
+
+
+/*-----------------------------------------------------------*/
+.bpl{
+
+	background-image: url("image/refback.jpg");
+	background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
+	margin:50px auto; 
+	padding: 30px;
+	border-style: groove; padding: 10px;
+	border-radius: 10%;
+}
+
+.laliga{
+
+	background-image: url("image/refback.jpg");
+	background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
+	margin:50px auto; 
+	padding: 30px;
+	border-style: groove; padding: 10px;
+	border-radius: 10%;
+}
+
+.bundesliga{
+
+	background-image: url("image/refback.jpg");
+	background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
+	margin:50px auto; 
+	padding: 30px;
+	border-style: groove; padding: 10px;
+	border-radius: 10%;
+}
+
+.Serie{
+
+	background-image: url("image/refback.jpg");
+	background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
+	margin:50px auto; 
+	padding: 30px;
+	border-style: groove; padding: 10px;
+	border-radius: 10%;
+}
+
+p {
+    margin: 24px 0 30px;
+    padding: 44px;
+}
